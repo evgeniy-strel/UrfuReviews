@@ -1,0 +1,115 @@
+.sign_up_modal_window {
+  width: 600px;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--black-color);
+  position: relative;
+  .close_window {
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    height: 32px;
+    width: 32px;
+    border-radius: 10px;
+    background-color: var(--white-color);
+    background-image: url('/img/close.svg');
+    cursor: pointer;
+  }
+  .sign_up_header {
+    display: flex;
+    .sign_in,
+    .registr {
+      width: 50%;
+      height: 68px;
+      background: #dbdbdb;
+      color: var(--gray-color-2);
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background: #e7e7e7;
+      }
+      &.active_tab {
+        background: var(--white-color);
+        color: var(--black-color);
+      }
+    }
+    .sign_in {
+      border-radius: 25px 0 0 0;
+    }
+    .registr {
+      border-radius: 0 25px 0 0;
+    }
+  }
+  .inputs {
+    margin: 40px 55px;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    input {
+      width: 100%;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 27px;
+      padding: 0 30px;
+      box-sizing: border-box;
+      height: 61px;
+      background: var(--white-color);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      &:focus {
+        padding: 0 30px;
+        border-color: rgba(0, 0, 0, 0.2);
+        outline: none;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 27px;
+      }
+      &.password_not_valid {
+        border-color: rgba(211, 0, 0, 0.4);
+      }
+    }
+  }
+  button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: var(--white-color);
+    padding: 17px 50px;
+    background: var(--blue-gradient-1);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    transition: 0.2s;
+    &.invalid_button {
+      filter: contrast(0.8);
+      &:hover {
+        filter: contrast(0.9);
+      }
+    }
+  }
+  .error_message {
+    font-weight: 400;
+    color: rgba(211, 0, 0, 1);
+    position: relative;
+    margin: 20px 0 0 0;
+    padding: 0;
+  }
+}

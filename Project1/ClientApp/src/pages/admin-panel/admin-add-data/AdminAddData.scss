@@ -1,0 +1,39 @@
+.enter-button-new {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  p {
+    margin: 0;
+  }
+}
+
+.add_new_prepod {
+  width: 100%;
+}
+
+.alert-new-data {
+  margin-bottom: 0.5rem;
+}
+
+.add_new_course {
+  margin-bottom: 1.25rem;
+}
+
+.add_new_track {
+  margin-bottom: 1rem;
+}
+
+.alert-message-new-data {
+  margin: 0;
+}
+
+.semester-search {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  .semester {
+    width: 100% !important;
+  }
+}

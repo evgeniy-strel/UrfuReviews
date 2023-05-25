@@ -1,0 +1,113 @@
+.login-container {
+  font-size: 1rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  a {
+    text-decoration: none;
+  }
+  .a-back-button {
+    display: block;
+    width: 500px;
+    .back-button {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+      cursor: pointer;
+      background-color: var(--white-color);
+      padding: 1.5rem;
+      color: var(--black-color);
+      font-size: 1.1rem;
+      font-weight: 500;
+      border-radius: 15px;
+      text-align: center;
+      letter-spacing: 0.04rem;
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  button {
+    border: none;
+  }
+
+  .login-block {
+    padding: 2rem 1.5rem;
+    width: 500px;
+    border-radius: 15px;
+    min-height: 500px;
+    background: var(--white-color);
+    .email-block,
+    .password-block {
+      margin-bottom: 1.25rem;
+    }
+    .login_title {
+      text-align: center;
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 1.75rem 0 2.5rem 0;
+    }
+    .email-block,
+    .password-block {
+      .email-title,
+      .password-title {
+        margin-top: 0;
+        margin-bottom: 0.75rem;
+      }
+      > span {
+        padding: 0.5rem 0.75rem;
+        > span:first-child {
+          margin-inline-end: 0.5rem;
+        }
+      }
+    }
+    .forget-password-title {
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+      font-size: 0.9rem;
+      text-align: right;
+      cursor: pointer;
+    }
+    .password-block-repeat {
+      margin-bottom: 2rem;
+    }
+    .login-button,
+    .register-button {
+      width: 100%;
+      cursor: pointer;
+      background: var(--blue-gradient-1);
+      padding: 0.85rem;
+      color: var(--white-color);
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 50px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.04rem;
+    }
+    .register-block {
+      text-align: center;
+      margin-top: 6rem;
+      .or-register-title {
+        color: var(--gray-color-3);
+      }
+      .register-title {
+        color: var(--blue-color-8);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .login-container .login-block,
+  .login-container .a-back-button {
+    width: 90%;
+  }
+}

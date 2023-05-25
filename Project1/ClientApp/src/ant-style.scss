@@ -1,0 +1,30 @@
+.modal-my-class {
+  * {
+    flex-wrap: nowrap !important;
+  }
+
+  span,
+  svg,
+  path {
+    flex-shrink: 0;
+  }
+}
+
+.ant-col,
+.form-item .ant-form-item-explain,
+button {
+  font-size: inherit;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.ant-form-item-explain {
+  margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-my-class {
+    div {
+      font-size: 0.9rem !important;
+    }
+  }
+}

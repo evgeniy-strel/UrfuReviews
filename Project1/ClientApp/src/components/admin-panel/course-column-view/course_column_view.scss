@@ -1,0 +1,109 @@
+.courses_column_view_container {
+  .MuiGrid-root {
+    width: 100%;
+  }
+  .courses_column_view {
+    .course_column_view {
+      background: var(--white-color);
+      margin-bottom: 1.25rem;
+      border-radius: 15px;
+      .course_container {
+        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.12);
+        border-radius: 15px;
+        box-sizing: border-box;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        .course_column {
+          padding: 0 1.25rem;
+          display: flex;
+          justify-content: space-between;
+          gap: 25px;
+          align-items: center;
+          border-radius: 15px;
+          cursor: pointer;
+          transition: 0.2s;
+          &:hover {
+            box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.2);
+          }
+          .title {
+            margin: 0;
+            padding: 0.85rem 0;
+            color: var(--blue-color-1);
+            font-weight: 500;
+            font-size: 1.1rem;
+            line-height: 26px;
+          }
+          .icons {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+          }
+          svg {
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 1.1rem;
+            color: var(--blue-color-1);
+          }
+          img {
+            cursor: pointer;
+            transition: 0.3s;
+            flex-shrink: 0;
+          }
+        }
+      }
+      &.show_tracks {
+        .course_column {
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+          img {
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+  .info_about_course {
+    background: var(--white-color);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 100%;
+    min-height: 210px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 23px;
+    color: var(--black-color);
+    padding: 23px 20px;
+    box-sizing: border-box;
+    .title {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      margin-bottom: 20px;
+      .title_up {
+        font-weight: 600;
+        font-size: 1.1rem;
+        line-height: 26px;
+      }
+    }
+    .values {
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 11px;
+        span {
+          font-weight: 500;
+        }
+      }
+      div:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info_about_course_grid {
+    display: none !important;
+  }
+}

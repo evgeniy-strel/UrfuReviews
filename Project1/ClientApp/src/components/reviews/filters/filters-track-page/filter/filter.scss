@@ -1,0 +1,120 @@
+.filters_and_button,
+.filters_add_review {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  position: relative;
+  font-family: inherit;
+  z-index: 5;
+  .blocked {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .select_active .select_body {
+    visibility: visible;
+  }
+  .select_active .select_header_icon {
+    transform: rotate(180deg);
+  }
+  .select_teacher {
+    position: relative;
+    width: 22rem;
+    position: relative;
+    .select_body {
+      width: 22rem;
+    }
+  }
+  .select_filters {
+    position: relative;
+    width: 14rem;
+    .select_body {
+      width: 14rem;
+    }
+  }
+  .select_header {
+    background: var(--white-color);
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--gray-color-2);
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.85rem 1.25rem;
+    min-height: 3rem;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    z-index: 3;
+    position: relative;
+    cursor: pointer;
+    .select_header_icon {
+      width: 1rem;
+      height: 1rem;
+      background-image: url('/img/arrow-bottom.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      transition: 0.3s;
+      margin-left: 0.75rem;
+      flex-shrink: 0;
+    }
+    &::-ms-expand {
+      display: none;
+    }
+  }
+  .select_body {
+    background: var(--white-color);
+    margin-top: 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
+    padding: 0.85rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    opacity: 0;
+    transition: 0.3s;
+    visibility: hidden;
+    .option {
+      width: 100%;
+      font-weight: 400;
+      font-size: 0.9rem;
+      line-height: 1rem;
+      color: var(--gray-color-4);
+      cursor: pointer;
+    }
+  }
+  .select_shown_body {
+    top: calc(100% + 1.5rem);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .filters_and_button,
+  .filters_add_review {
+    .select_teacher {
+      width: 18rem;
+      position: relative;
+      .select_body {
+        width: 18rem;
+      }
+    }
+    .select_filters {
+      width: 12rem;
+      .select_body {
+        width: 12rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.admin-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  .admin-tab {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--gray-color-1);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    &:hover {
+      box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.15);
+    }
+    &.active-tab {
+      background-color: var(--blue-color-9);
+      color: var(--white-color);
+    }
+  }
+}

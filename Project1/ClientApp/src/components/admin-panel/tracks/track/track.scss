@@ -1,0 +1,57 @@
+.track_admin_panel {
+  margin-bottom: 1rem;
+  .right {
+    span {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.track-name {
+  color: var(--gray-color-4);
+}
+
+.prepod-block-name {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  background: var(--purple-color-1);
+  border-radius: 10px;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  .prepod-name {
+    word-wrap: break-word;
+    flex-grow: 1;
+    max-width: 88%;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  .icons-block {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 1rem;
+    svg {
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+  }
+}
+
+.track_admin_panel:last-of-type {
+  margin-bottom: 0;
+}
+
+.add-prepod {
+  cursor: pointer;
+  justify-content: flex-end;
+  gap: 1rem;
+  background: var(--blue-gradient-1);
+  color: var(--white-color);
+  .prepod-name {
+    flex-grow: 0;
+  }
+}

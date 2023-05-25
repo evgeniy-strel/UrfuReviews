@@ -1,0 +1,54 @@
+.progress_circle {
+  width: 114px;
+  height: 114px;
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+
+  .outer {
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #d5d5d5;
+    background: var(--white-color);
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .inner {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--black-color);
+    text-align: center;
+  }
+
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg);
+
+    circle {
+      fill: none;
+      stroke: url(#GradientColor);
+      stroke-width: 7px;
+      stroke-dasharray: 330;
+      stroke-dashoffset: 330;
+      transition: 1.5s all ease;
+    }
+  }
+}

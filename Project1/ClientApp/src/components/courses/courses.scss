@@ -1,0 +1,33 @@
+.courses_title_container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.courses_view {
+  display: flex;
+  gap: 13px;
+  img {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.1s;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  .active_view {
+    opacity: 1;
+  }
+}
+
+.courses_title {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 30px;
+}

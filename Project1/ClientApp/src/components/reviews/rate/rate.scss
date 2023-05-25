@@ -1,0 +1,64 @@
+.rate_list {
+  flex-basis: 16.5rem;
+  flex-shrink: 5 !important;
+}
+
+.rate {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rate_bar {
+  width: 100%;
+}
+
+.rate-progress {
+  background: var(--white-color);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  position: relative;
+  width: 100%;
+  height: 1.75rem;
+  overflow: hidden;
+}
+
+.rate-progress-done {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 0.65rem;
+  box-sizing: content-box;
+  font-weight: 700;
+  min-width: 22%;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  background: var(--blue-gradient-1);
+  color: var(--white-color);
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1.5s ease;
+  .star_icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    background: url('/img/star-white.svg');
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .rate-progress-done {
+    min-width: 25%;
+  }
+}
+
+.rate_bar {
+  transition: 0.4s;
+}
+.rate_bar:hover {
+  transform: scale(0.99, 0.99);
+}

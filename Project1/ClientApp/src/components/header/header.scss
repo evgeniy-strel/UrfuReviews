@@ -1,0 +1,135 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  > div {
+    justify-content: space-between;
+  }
+}
+
+.search {
+  flex-grow: 1;
+  flex-shrink: 8;
+}
+
+.search_container {
+  max-width: 35rem;
+  display: flex;
+  height: 2.75rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+input.search-input {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white-color);
+  background-image: url('../../img/search.svg');
+  background-size: 1.4rem;
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  text-overflow: ellipsis;
+  border-radius: 15px 0 0 15px;
+  border: 2px solid var(--gray-color-1);
+  padding-left: 3rem;
+  font-size: 1rem;
+  color: var(--gray-color-5);
+  &:active {
+    border: 2px solid var(--gray-color-1);
+    outline: none;
+  }
+  &:focus {
+    border: 2px solid var(--gray-color-1);
+    outline: none;
+  }
+  &::placeholder {
+    font-size: 1.05rem;
+    color: var(--gray-color-3);
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.search-input button {
+  width: 3rem !important;
+  height: 2.75rem !important;
+}
+
+.button-search {
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  height: 100%;
+  background-color: var(--gray-color-1);
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--gray-color-4);
+  border: none;
+  box-sizing: border-box;
+}
+
+.nav-items-grid {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  .nav-items {
+    display: flex;
+    gap: 2rem;
+    font-family: 'Roboto', sans-serif;
+    height: 2.75rem;
+    a,
+    div {
+      cursor: pointer;
+      flex-shrink: 0;
+      border-radius: 20px;
+      height: 100%;
+      padding: 0 1rem;
+      box-sizing: border-box;
+      color: var(--white-color);
+      text-decoration: none;
+      font-size: 1rem;
+      display: flex;
+      gap: 0.75rem;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 1rem;
+        height: 1rem;
+      }
+    }
+    .login {
+      background: var(--blue-gradient-1);
+    }
+    .logout {
+      background: var(--blue-gradient-1);
+    }
+    .add-review {
+      background: var(--purple-gradient-1);
+    }
+  }
+}
+
+.sidebar-icon {
+  display: none;
+  align-items: center;
+  svg {
+    fill: var(--gray-color-4);
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .sidebar-icon {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    flex-wrap: wrap;
+  }
+}

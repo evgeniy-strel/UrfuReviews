@@ -1,0 +1,35 @@
+.filters_add_review {
+  .select {
+    min-width: 11rem;
+    max-width: 18rem;
+    flex-grow: 1;
+  }
+  .select_course_semester {
+    flex-basis: calc(20% - 0.25rem);
+    position: relative;
+    .select_body {
+      width: 100%;
+    }
+  }
+  .select_subject {
+    flex-basis: calc(25% - 0.25rem);
+    position: relative;
+    .select_body {
+      width: 100%;
+    }
+  }
+  .select_track {
+    flex-basis: calc(25% - 0.25rem);
+    position: relative;
+    .select_body {
+      width: 100%;
+    }
+  }
+  .select_teacher {
+    flex-basis: calc(25% - 0.25rem);
+    position: relative;
+    .select_body {
+      width: 100%;
+    }
+  }
+}
