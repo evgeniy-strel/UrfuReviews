@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-09T10:40:29.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="0jDIy_hswDdnc53BVbTI" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-09T10:46:19.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="kQxQOBWq_Ray87TT5W6b" version="24.5.2" type="github">
   <diagram name="Страница — 1" id="-pBGrqWisKI-pkqVHhkm">
-    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
         <mxCell id="kH9F9opAkVAdocrRiDzT-31" value="Добавлена статистика по географии и по активности каждого клиента" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="282" y="460" width="146" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="kH9F9opAkVAdocrRiDzT-32" value="Добавлена статистика по географии и по активности каждого клиента" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kH9F9opAkVAdocrRiDzT-32" value="Добавлена возможность поделиться ссылкой на отчет" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="450" y="510" width="146" height="90" as="geometry" />
         </mxCell>
         <mxCell id="kH9F9opAkVAdocrRiDzT-35" value="Мотивация использования" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -99,6 +99,12 @@
         </mxCell>
         <mxCell id="kH9F9opAkVAdocrRiDzT-42" value="Добавлен DragNDrop, опции на записях для быстрой построении иерархии метрик" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="790" y="460" width="146" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-44" value="Развитие продукта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="140" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-45" value="Функционал кому-то нужен?&lt;div&gt;Им кто-то пользуется?&lt;/div&gt;&lt;div&gt;Кто пользуется?&lt;/div&gt;&lt;div&gt;Какая компания?&lt;/div&gt;&lt;div&gt;Откуда компания?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="220" width="180" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
