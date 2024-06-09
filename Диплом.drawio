@@ -1,26 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2024-06-09T10:12:04.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="xE1Lnm9foU_39E84II0N" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-09T10:33:35.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="73I-Wn3MUOCAJZgL9gu6" version="24.5.2" type="github">
   <diagram name="Страница — 1" id="-pBGrqWisKI-pkqVHhkm">
     <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kH9F9opAkVAdocrRiDzT-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-1" target="kH9F9opAkVAdocrRiDzT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kH9F9opAkVAdocrRiDzT-1" value="Product Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="140" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-5" target="kH9F9opAkVAdocrRiDzT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kH9F9opAkVAdocrRiDzT-5" value="Разработчик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="140" width="30" height="60" as="geometry" />
+          <mxGeometry x="508" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-7" target="kH9F9opAkVAdocrRiDzT-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kH9F9opAkVAdocrRiDzT-7" value="Технолог" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="140" width="30" height="60" as="geometry" />
+          <mxGeometry x="678" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-8" target="kH9F9opAkVAdocrRiDzT-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kH9F9opAkVAdocrRiDzT-8" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="140" width="30" height="60" as="geometry" />
+          <mxGeometry x="848" y="140" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kH9F9opAkVAdocrRiDzT-10" value="Оценивает общую картину продвижения продукта" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kH9F9opAkVAdocrRiDzT-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-10" target="kH9F9opAkVAdocrRiDzT-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-10" value="Оценивает общую картину продвижения продукта" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="282" y="260" width="146" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="kH9F9opAkVAdocrRiDzT-11" value="При сдач" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="260" width="146" height="70" as="geometry" />
+        <mxCell id="kH9F9opAkVAdocrRiDzT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-11" target="kH9F9opAkVAdocrRiDzT-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-11" value="При сдаче проекта прикладывает показатели использования разрабатываемого функционала" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="146" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-12" value="Бизнес-процесс&lt;br&gt;Создают новый продукт/разрабатывают функционал =&amp;gt;&lt;br&gt;Функционал кому-то нужен?&lt;div&gt;Им кто-то пользуется?&lt;/div&gt;&lt;div&gt;Кто пользуется?&lt;/div&gt;&lt;div&gt;Какая компания?&lt;/div&gt;&lt;div&gt;Откуда компания?&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1051" y="80" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-16" target="kH9F9opAkVAdocrRiDzT-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-16" value="Готовит отчет об использовании" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="260" width="146" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-18" value="Занимается настройкой метрик" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="790" y="260" width="146" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-25" target="kH9F9opAkVAdocrRiDzT-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-25" value="Не хватает более подробной статистики: по регионам или каждому клиенту" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="282" y="350" width="146" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-26" target="kH9F9opAkVAdocrRiDzT-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-26" value="Не хватает возможности поделиться ссылкой на отчет по продукту" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="146" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-27" value="Не хватает возможности выгрузки данных" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="620" y="350" width="146" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-31" value="Добавлена статистика по географии и по активности каждого клиента" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="282" y="460" width="146" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-32" value="Добавлена статистика по географии и по активности каждого клиента" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="510" width="146" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
