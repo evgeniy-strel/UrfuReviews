@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-09T10:46:19.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="kQxQOBWq_Ray87TT5W6b" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-09T10:51:33.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Hot5qzE385hE7TOvlNCj" version="24.5.2" type="github">
   <diagram name="Страница — 1" id="-pBGrqWisKI-pkqVHhkm">
     <mxGraphModel dx="2022" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,11 +100,28 @@
         <mxCell id="kH9F9opAkVAdocrRiDzT-42" value="Добавлен DragNDrop, опции на записях для быстрой построении иерархии метрик" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="790" y="460" width="146" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-44" target="kH9F9opAkVAdocrRiDzT-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kH9F9opAkVAdocrRiDzT-44" value="Развитие продукта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="140" width="110" height="60" as="geometry" />
+          <mxGeometry x="-40" y="170" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-45" target="kH9F9opAkVAdocrRiDzT-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="34.66666666666697" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="kH9F9opAkVAdocrRiDzT-45" value="Функционал кому-то нужен?&lt;div&gt;Им кто-то пользуется?&lt;/div&gt;&lt;div&gt;Кто пользуется?&lt;/div&gt;&lt;div&gt;Какая компания?&lt;/div&gt;&lt;div&gt;Откуда компания?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-55" y="220" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-47" target="kH9F9opAkVAdocrRiDzT-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-47" value="Необходимость метрик KPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="330" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-49" value="Выделение бизнес-процессов для создания метрик" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-57.5" y="380" width="185" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
