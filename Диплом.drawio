@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-03-03T09:40:46.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="22.1.17" etag="TQV1-gEO0qdtxOOxz71H" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-09T10:12:04.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="xE1Lnm9foU_39E84II0N" version="24.5.2" type="github">
   <diagram name="Страница — 1" id="-pBGrqWisKI-pkqVHhkm">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kH9F9opAkVAdocrRiDzT-1" value="Product Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-5" value="Разработчик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-7" value="Технолог" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-8" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-10" value="Оценивает общую картину продвижения продукта" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282" y="260" width="146" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-11" value="При сдач" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="146" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
