@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-09T10:36:04.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="-_CD8vT7FC_8QKwBntdj" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-09T10:37:21.951Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QPNR-BYEjx-f_DAmjcy1" version="24.5.2" type="github">
   <diagram name="Страница — 1" id="-pBGrqWisKI-pkqVHhkm">
     <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,6 +49,9 @@
         <mxCell id="kH9F9opAkVAdocrRiDzT-16" value="Готовит отчет об использовании" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="620" y="260" width="146" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-18" target="kH9F9opAkVAdocrRiDzT-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kH9F9opAkVAdocrRiDzT-18" value="Занимается настройкой метрик" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="790" y="260" width="146" height="70" as="geometry" />
         </mxCell>
@@ -88,8 +91,14 @@
         <mxCell id="kH9F9opAkVAdocrRiDzT-38" value="Добавлена выгрузка данных в 2 формата: Excel и PDF" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="620" y="460" width="146" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="kH9F9opAkVAdocrRiDzT-40" value="Не хватает возможности выгрузки данных" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="kH9F9opAkVAdocrRiDzT-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kH9F9opAkVAdocrRiDzT-40" target="kH9F9opAkVAdocrRiDzT-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-40" value="Сталкивался с неудобством настройки" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="790" y="350" width="146" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kH9F9opAkVAdocrRiDzT-42" value="Добавлен DragNDrop, опции на записях" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="460" width="146" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
